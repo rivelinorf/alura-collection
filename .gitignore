@@ -2,6 +2,10 @@ pom.xml
 pom.xml.asc
 *.jar
 *.class
+profiles.clj
+/.lein-*
+/.nrepl-port
+/.prepl-port
 /lib/
 /classes/
 /target/
@@ -12,3 +16,10 @@ pom.xml.asc
 .lein-failures
 .nrepl-port
 .cpcache/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
